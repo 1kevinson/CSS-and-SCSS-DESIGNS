@@ -7,6 +7,6 @@ services:
         image: blog-post
         container_name: blog-container
         volumes: 
-            - ./code:/app
+            - ./code:/app:ro
         ports: 
             - "3000:8080"
