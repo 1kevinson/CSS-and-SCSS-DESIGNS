@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+    blog:
+        build: 
+            context: ./code
+        image: blog-post
+        container_name: blog-container
+        volumes: 
+            - ./code:/app
+        ports: 
+            - "3000:8080"

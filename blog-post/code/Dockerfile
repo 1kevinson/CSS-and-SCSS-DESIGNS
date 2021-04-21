@@ -1,16 +1,18 @@
 FROM node:15.14.0-alpine3.10
 
+RUN echo "alias ll='ls -la'" >> ~/.bashrc 
+
 WORKDIR /app
 
 COPY package.json .
 
 RUN npm install
 
+VOLUME ["/app/node_modules"]
+
 COPY . .
 
 EXPOSE 8080
-
-VOLUME ["/app/node_modules"]
 
 CMD ["npm","start"]
 
