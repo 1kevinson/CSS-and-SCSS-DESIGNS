@@ -26,6 +26,15 @@ html {
     margin: 0 auto; /* Center a row */
 }
 
+header {
+    background-image: linear-gradient(
+                        rgba(0,0,0,0.7),
+                        rgba(0,0,0,0.7)
+                        ),
+                      url(img/hero.jpg);
+    background-size: cover;
+    height: 100vh;
+}
 
 /* ------ HEADING ------- */
 h1 { 
