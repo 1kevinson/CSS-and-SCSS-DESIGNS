@@ -122,6 +122,14 @@ h2::after { /* Create a block (div) after a h2 */
     margin-bottom: 10px;
 }
 
+.icon-small {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: #e67e22;
+    font-size: 120%;
+}
+
 /* ------ BUTTONS ------- */
 .btn:link,
 .btn:visited {
@@ -309,4 +317,17 @@ header {
 
 .section-steps {
     background-color: #f4f4f4;
+}
+
+/* ---------------------- */
+/* CITIES */
+/* ---------------------- */
+.box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.city-feature {
+    margin-bottom: 5px;
 }
