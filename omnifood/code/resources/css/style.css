@@ -306,3 +306,7 @@ header {
     width: auto;
     margin-right: 10px;
 }
+
+.section-steps {
+    background-color: #f4f4f4;
+}
