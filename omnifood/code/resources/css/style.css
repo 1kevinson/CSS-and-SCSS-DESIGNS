@@ -402,3 +402,21 @@ cite img {
     margin-right: 10px;
     vertical-align: middle;
 }
+
+/* ---------------------- */
+/* SECTIONS PLANS */
+/* ---------------------- */
+.section-plans {
+    background-color: #f4f4f4;
+}
+
+.plan-box {
+    background-color: #fff;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.plan-box div {
+    
+}
