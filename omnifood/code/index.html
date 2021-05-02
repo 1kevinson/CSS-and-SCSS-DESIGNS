@@ -267,15 +267,15 @@
                         <!-- Create separate divs to create a divider with CSS selector -->
                         <div>
                             <h3>Prenium</h3>
-                            <p class="plain-price">399$ / month</p>
+                            <p class="plan-price">$399 <span>/ month</span></p>
                             <p class="plan-price-meal">That's only 13.30$ per meal</p>
                         </div>
                         <div>
                             <ul>
-                                <li><ion-icon name="checkmark"></ion-icon>1 meal every day</li>
-                                <li><ion-icon name="checkmark"></ion-icon>Order 24/7</li>
-                                <li><ion-icon name="checkmark"></ion-icon>Access the newest creations</li>
-                                <li><ion-icon name="checkmark"></ion-icon>Free delivery</li>
+                                <li><span class="icon-small"><ion-icon name="checkmark"></ion-icon></span>1 meal every day</li>
+                                <li><span class="icon-small"><ion-icon name="checkmark"></ion-icon></span>Order 24/7</li>
+                                <li><span class="icon-small"><ion-icon name="checkmark"></ion-icon></span>Access the newest creations</li>
+                                <li><span class="icon-small"><ion-icon name="checkmark"></ion-icon></span>Free delivery</li>
                             </ul>
                         </div>
                         <div>
@@ -287,15 +287,15 @@
                     <div class="plan-box">
                         <div>
                             <h3>Pro</h3>
-                            <p class="plain-price">149$ / month</p>
+                            <p class="plan-price">$149 <span>/ month</span></p>
                             <p class="plan-price-meal">That's only 14.90$ per meal</p>
                         </div>
                         <div>
                             <ul>
-                                <li><ion-icon name="checkmark"></ion-icon>1 meal 10 days/month</li>
-                                <li><ion-icon name="checkmark"></ion-icon>Order 24/7</li>
-                                <li><ion-icon name="checkmark"></ion-icon>Access the newest creations</li>
-                                <li><ion-icon name="checkmark"></ion-icon>Free delivery</li>
+                                <li><span class="icon-small"><ion-icon name="checkmark"></ion-icon></span>1 meal 10 days/month</li>
+                                <li><span class="icon-small"><ion-icon name="checkmark"></ion-icon></span>Order 24/7</li>
+                                <li><span class="icon-small"><ion-icon name="checkmark"></ion-icon></span>Access the newest creations</li>
+                                <li><span class="icon-small"><ion-icon name="checkmark"></ion-icon></span>Free delivery</li>
                             </ul>
                         </div>
                         <div>
@@ -307,15 +307,15 @@
                     <div class="plan-box">
                         <div>
                             <h3>Starter</h3>
-                            <p class="plain-price">19$ per meal</p>
-                            <p class="plan-price-meal"></p> 
+                            <p class="plan-price">19$ <span>/ meal</span></p>
+                            <p class="plan-price-meal">&nbsp;</p> 
                         </div>
                         <div>
                             <ul>
-                                <li><ion-icon name="checkmark"></ion-icon>1 meal</li>
-                                <li><ion-icon name="checkmark"></ion-icon>Order from 8am to 12pm</li>
-                                <li><ion-icon name="close"></ion-icon></li>
-                                <li><ion-icon name="checkmark"></ion-icon>Free delivery</li>
+                                <li><span class="icon-small"><ion-icon name="checkmark"></ion-icon></span>1 meal</li>
+                                <li><span class="icon-small"><ion-icon name="checkmark"></ion-icon></span>Order from 8am to 12pm</li>
+                                <li><span class="icon-small"><ion-icon name="close"></ion-icon></span></li>
+                                <li><span class="icon-small"><ion-icon name="checkmark"></ion-icon></span>Free delivery</li>
                             </ul>
                         </div>
                         <div>
@@ -326,6 +326,68 @@
             </div>
         </section>
 
+        <section class="section-form">
+            <div class="row">
+                <h2>We're happy to hear from you</h2>
+            </div>
+            <div class="row">
+                <form method="post" action="#" class="contact-form">
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="name">Name</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="text" name="name" id="name" placeholder="Your name" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="email" name="email" id="email" placeholder="Your email" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="find-us">How did you find us ?</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <select name="find-us" id="find-us">
+                                <option value="friends">Friends</option>
+                                <option value="search" selected>Search Engine</option>
+                                <option value="ad">Advertisement</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>Newsletter</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="checkbox" name="news" id="news" checked> Yes, please
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>Drop us a line</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <textarea name="message" placeholder="your message"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>&nbsp;</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="submit" value="Send it!">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
     </body>
 
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
