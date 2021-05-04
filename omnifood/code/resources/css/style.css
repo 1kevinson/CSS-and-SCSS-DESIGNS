@@ -40,7 +40,7 @@ html {
 /* ---------------------- */
 
 .row {
-    max-width: 1140px;
+    max-width: 1240px;
     margin: 0 auto; /* Center a row */
 }
 
@@ -50,16 +50,6 @@ section {
 
 .box {
     padding: 1%;
-}
-
-header {
-    background-image: linear-gradient(
-                        rgba(0,0,0,0.7),
-                        rgba(0,0,0,0.7)
-                        ),
-                      url(img/hero.jpg);
-    background-size: cover;
-    height: 100vh;
 }
 
 /* ------ HEADING ------- */
@@ -204,7 +194,11 @@ input[type=submit] {
 /* ---------------------- */
 
 header {
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(img/hero.jpg);
+    background-image: linear-gradient(
+            rgba(0,0,0,0.9),
+            rgba(0,0,0,0.4)
+        ), 
+        url(img/hero.jpeg);
     background-size: cover;
     height: 100vh;
 }
@@ -369,8 +363,11 @@ header {
 /* TESTIMONIALS */
 /* ---------------------- */
 .section-testimonials {
-    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),
-                      url(img/back-customers.jpg);
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)
+    ),
+     url(img/back-customers.jpeg);
     background-size: cover;
     color: #fff;
     background-attachment: fixed;
@@ -495,4 +492,77 @@ input[type=checkbox] {
 
 *:focus {
     outline: none;
+}
+
+/* ---------------------- */
+/* FOOTER */
+/* ---------------------- */
+footer {
+    background-color: #333;
+    padding: 50px 0;
+    font-size: 80%;
+}
+
+.footer-nav {
+    list-style: none;
+    float: left;
+}
+
+.social-links {
+    list-style: none;
+    float: right;
+}
+
+.footer-nav li,
+.social-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav li:last-child,
+.social-links li:last-child {
+    margin: 0;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: #888;
+    transition: color 0.2s;
+}
+
+.footer-nav li a:active,
+.footer-nav li a:hover {
+    color: #ddd;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+    font-size: 170%;
+}
+
+footer p {
+    color: #888;
+    text-align: center;
+    font-size: 90%;
+    margin-top: 30px;
+}
+
+.logo-facebook:hover {
+    color: #3b5998;
+}
+
+.logo-twitter:hover {
+    color: #1da1f2;
+}
+
+.logo-google:hover {
+    color: #db3c4e;
+}
+
+.logo-instagram:hover {
+    color: #f46f30;
 }
