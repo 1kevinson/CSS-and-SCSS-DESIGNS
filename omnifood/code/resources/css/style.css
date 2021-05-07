@@ -277,7 +277,17 @@ header {
     color: #555;
 }
 
-.sticky .logo-black { display: block; }
+.sticky .logo-black { 
+    display: block;
+    transition: transform 0.5s ease;
+ }
+
+.sticky .logo-black:hover { 
+    cursor: pointer;
+    filter: blur(0.3px);
+    transform: scale(0.95,0.95);
+}
+
 .sticky .logo { display: none; }
 
 
