@@ -2,7 +2,7 @@ Welcome to this site template
 
 In order to preview the content, go to folder omnifood
 ```
-$ cd ominifood
+$ cd omnifood
 ```
 
 And run the docker compose file
