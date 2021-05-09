@@ -1,4 +1,4 @@
-Welcome to this site template 
+Welcome to this site template for omnifood
 
 In order to preview the content, go to folder omnifood
 ```
