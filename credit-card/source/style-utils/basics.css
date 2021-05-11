@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+html,
+body {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Be Vietnam','Arial',sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+/* Use to clear the elements or parent element which have the float property */
+.clearfix {
+    zoom: 1;
+}
+
+.clearfix::after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.row {
+    max-width: 1240px;
+    margin: 0 auto;
+}
