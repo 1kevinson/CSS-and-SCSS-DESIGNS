@@ -1,5 +1,3 @@
-
-.dashboard,
 .details {
     border: solid 1px rgb(121, 119, 119);
     height: 100vh;
@@ -16,6 +14,7 @@
 
 .menu {
     padding: 5rem;
+    height: 100vh;
 }
 
 .menu__profile {
@@ -70,7 +69,57 @@
     vertical-align: middle;
 }
 
+.icon-small-cart {
+    
+}
+
 .menu__actions li a:hover,
 .menu__actions li a:active { 
     color: rgb(0, 0, 0);
+}
+
+/* ------------ */
+/* Dashboard */
+/* ------------ */
+
+.dashboard {
+    border-left: solid 1px rgba(199, 198, 198, 0.379);
+    padding: 5rem;
+    height: 100vh;
+}
+
+.dashboard__hello {
+    margin-bottom: 5rem;
+}
+
+.dashboard__hello h1 { font-size: 5rem; }
+
+.dashboard__hello h3 {
+    color: rgb(150, 150, 150);
+}
+
+.dashboard__wallet h2 { 
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+.dashboard__credit-card {
+    border: solid 1px rgb(170, 166, 166);
+    height: 30rem;
+    width: 100%;
+    margin-bottom: 3rem;
+    border-radius: 1rem;
+}
+
+.dashboard__add-cart-btn {
+    border: dashed 1.8px rgb(199, 194, 194);
+    height: 5rem;
+    text-align: center;
+    /* center text in div */
+    display: grid;
+    place-items: center;
+    background-color: rgba(233, 233, 233, 0.714);
+    text-decoration: none;
+    color: rgb(24, 24, 24);
+    margin-bottom: 3rem;
 }
