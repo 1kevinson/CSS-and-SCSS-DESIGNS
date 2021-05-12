@@ -4,15 +4,18 @@
     box-sizing: border-box; 
 }
 
-html,
-body {
+html {
     background-color: #fff;
-    color: #555;
+    color: rgb(21, 20, 20);
     font-family: 'Be Vietnam','Arial',sans-serif;
     font-weight: 300;
-    font-size: 20px;
-    text-rendering: optimizeLegibility;
+    /* font-size = 10px => 10 / 16 = 0.625 */
+    font-size: 62.5%; 
     overflow-x: hidden;
+}
+
+body {
+    font-size: 1.5rem;
 }
 
 /* Use to clear the elements or parent element which have the float property */
