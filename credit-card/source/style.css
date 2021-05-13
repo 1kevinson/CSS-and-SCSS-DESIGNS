@@ -70,7 +70,11 @@
 }
 
 .icon-small-cart {
-    
+    font-size: 2.5rem;
+    margin-right: 0.5rem;
+    /* Align icons and text */
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .menu__actions li a:hover,
@@ -108,18 +112,21 @@
     height: 30rem;
     width: 100%;
     margin-bottom: 3rem;
-    border-radius: 1rem;
+    border-radius: 3rem;
 }
 
 .dashboard__add-cart-btn {
     border: dashed 1.8px rgb(199, 194, 194);
-    height: 5rem;
+    border-radius: 1rem;
     text-align: center;
-    /* center text in div */
-    display: grid;
-    place-items: center;
+    width: 100%;
     background-color: rgba(233, 233, 233, 0.714);
-    text-decoration: none;
+    margin-bottom: 8rem;
+    display: block;
+    font-size: 1.8rem;
     color: rgb(24, 24, 24);
-    margin-bottom: 3rem;
+    text-decoration: none;
+    /* Center div content vertically */
+    padding: 1rem 0;
 }
+
