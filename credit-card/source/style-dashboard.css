@@ -23,15 +23,53 @@
 }
 
 .dashboard__credit-card {
+    position: relative;
     border: solid 1px rgb(170, 166, 166);
     height: 30rem;
     width: 100%;
     margin-bottom: 3rem;
     border-radius: 3rem;
+    background: rgb(122,63,215);
+    background: linear-gradient(128deg,
+    rgba(122,63,215,1) 38%,
+    rgba(0,131,255,0.665703781512605) 100%);
+}
+
+.credit-card__name {
+    width: 50%;
+    display: inline-block;
+    position: relative;
+    top: 2.5rem;
+    font-size: 2.3rem;
+    font-weight: bold;
+    padding-left: 2rem;
+    color: #fff;
+}
+
+.credit-card__visa {
+    position: relative;
+    width: 40%;
+    display: inline-block;
+}
+
+.credit-card__visa>img {
+    width: 9rem;
+    position: absolute;
+    right: 0;
+    filter: brightness(0) invert(1);
+}
+
+.credit-card__amount {
+    position: absolute;
+    font-size: 4rem;
+    font-weight: bold;
+    bottom: 3rem;
+    left: 3rem;
+    color: #ffffff;
 }
 
 .dashboard__add-cart-btn {
-    border: dashed 1.8px rgb(199, 194, 194);
+    border: dashed 2px rgb(199, 194, 194);
     border-radius: 1rem;
     text-align: center;
     width: 100%;
@@ -43,6 +81,10 @@
     text-decoration: none;
     /* Center div content vertically */
     padding: 1rem 0;
+}
+
+.dashboard__add-cart-btn:hover {
+    background-color: rgba(224, 223, 223, 0.71);
 }
 
 .dashboard__transactions>h2 {
@@ -86,7 +128,7 @@
 
 .dashboard__transactions li a>div:nth-child(2)>span:last-child {
     color: rgb(143, 141, 141);
- }
+}
 
 .dashboard__transactions li a>div:last-child {
     width: 10%;
