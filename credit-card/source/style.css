@@ -144,27 +144,40 @@
     display: inline-block;
     width: 100%;
     padding: 1rem 0;
-    border: solid 2px red;
     margin-bottom: 2rem;
 }
 
 .dashboard__transactions li a>div:first-child {
     width: 10%;
-    border: solid 1px black;
+    padding: 1rem;
+    font-size: 2.5rem;
+    border: solid 1px rgb(196, 194, 194);
+    border-radius: 1rem;
+    margin-right: 1rem;
     display: inline-block;
-    top: 50%;
-    transform: translateY(-40%);
+    text-align: center;
 }
 
 .dashboard__transactions li a>div:nth-child(2) {
     width: 70%;
-    border: solid 1px black;
     display: inline-block;
 }
 
+.dashboard__transactions li a>div:nth-child(2)>span:first-child {
+   font-size: 2rem;
+   font-weight: bold;
+   color: black;
+}
+
+.dashboard__transactions li a>div:nth-child(2)>span:last-child {
+    color: rgb(143, 141, 141);
+ }
+
 .dashboard__transactions li a>div:last-child {
     width: 10%;
-    border: solid 1px rgb(147, 108, 108);
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
     display: inline-block;
     top: 50%;
     transform: translateY(-40%);
