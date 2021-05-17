@@ -1,11 +1,10 @@
-/*
-COLORS:
+@import "base/animations";
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
 
-Light green: #7ed56f
-Medium green: #55c57a
-Dark green: #28b485
+@import "pages/home";
 
-*/
 
 
 $color-primary: #55c57a;
