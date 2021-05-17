@@ -1,0 +1,19 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "natours project for learning SASS",
+  "main": "index.js",
+  "scripts": {
+    "serve" : "live-server",
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "keywords": [
+    "sass"
+  ],
+  "author": "Arsene Kevin",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "node-sass": "^6.0.0"
+  }
+}
