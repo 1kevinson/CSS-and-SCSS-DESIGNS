@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aee34343-f1be-4bea-a754-ba830faef508" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/code/sass/components/_button.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/sass/layout/_header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/sass/layout/_grid.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/code/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/code/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/sass/abstracts/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/code/sass/abstracts/_mixins.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/sass/abstracts/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/code/sass/abstracts/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/sass/base/_animations.scss" beforeDir="false" afterPath="$PROJECT_DIR$/code/sass/base/_animations.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/sass/base/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/code/sass/base/_base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/sass/base/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/code/sass/base/_typography.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/code/sass/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +17,13 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SCSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -42,6 +47,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunManager" selected="npm.compile:sass">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
@@ -115,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621247048850</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Implementing 7-1 SASS architecture">
+      <created>1621836150069</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1621836150069</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,6 +142,11 @@
     <MESSAGE value="Project setup" />
     <MESSAGE value="Added git ignore for Natours" />
     <MESSAGE value="setting up the main.scss file" />
-    <option name="LAST_COMMIT_MESSAGE" value="setting up the main.scss file" />
+    <MESSAGE value="Implementing 7-1 SASS architecture" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementing 7-1 SASS architecture" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
