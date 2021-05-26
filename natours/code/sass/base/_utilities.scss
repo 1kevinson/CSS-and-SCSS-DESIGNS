@@ -1,7 +1,9 @@
+// centering
 .u-center-text {
    text-align: center;
 }
 
+// margin-bottom
 .u-mb-big {
    margin-bottom: 8rem;
 }
@@ -11,5 +13,22 @@
 }
 
 .u-mb-small {
+   margin-bottom: 1.5rem;
+}
+
+// margin-top
+u-mt-huge {
+   margin-top: 10rem;
+}
+
+u-mt-big {
+   margin-top: 8rem;
+}
+
+.u-mt-medium {
+   margin-bottom: 4rem;
+}
+
+.u-mt-small {
    margin-bottom: 1.5rem;
 }
