@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aee34343-f1be-4bea-a754-ba830faef508" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/code/sass/base/_utilities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/code/sass/base/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/sass/components/_bg-video.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/sass/components/_story.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/code/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/code/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/code/sass/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/sass/pages/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/code/sass/pages/_home.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +50,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/code/css" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -52,15 +58,13 @@
     </key>
   </component>
   <component name="RunManager" selected="npm.compile:sass">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -105,7 +109,8 @@
       <workItem from="1621191079110" duration="34000" />
       <workItem from="1621853001911" duration="19000" />
       <workItem from="1621925694438" duration="12868000" />
-      <workItem from="1622011918078" duration="13898000" />
+      <workItem from="1622011918078" duration="14190000" />
+      <workItem from="1622109014924" duration="7722000" />
     </task>
     <task id="LOCAL-00001" summary="Project setup">
       <created>1620598855906</created>
@@ -177,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622027651238</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Building the tours sections + fix utilities">
+      <created>1622028010808</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1622028010809</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,7 +210,8 @@
     <MESSAGE value="About section part 3" />
     <MESSAGE value="Building feature section" />
     <MESSAGE value="Building the tours sections" />
-    <option name="LAST_COMMIT_MESSAGE" value="Building the tours sections" />
+    <MESSAGE value="Building the tours sections + fix utilities" />
+    <option name="LAST_COMMIT_MESSAGE" value="Building the tours sections + fix utilities" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
