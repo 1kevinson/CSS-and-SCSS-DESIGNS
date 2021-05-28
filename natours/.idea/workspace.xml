@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aee34343-f1be-4bea-a754-ba830faef508" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/code/sass/components/_bg-video.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/sass/components/_story.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/code/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/code/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/code/sass/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/sass/pages/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/code/sass/pages/_home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/sass/abstracts/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/code/sass/abstracts/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/sass/components/_form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/code/sass/components/_form.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +25,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1sJlfJodmLbyCH1xxvlippt6T86" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -58,13 +55,15 @@
     </key>
   </component>
   <component name="RunManager" selected="npm.compile:sass">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -110,7 +109,8 @@
       <workItem from="1621853001911" duration="19000" />
       <workItem from="1621925694438" duration="12868000" />
       <workItem from="1622011918078" duration="14190000" />
-      <workItem from="1622109014924" duration="7722000" />
+      <workItem from="1622109014924" duration="8758000" />
+      <workItem from="1622189920107" duration="1922000" />
     </task>
     <task id="LOCAL-00001" summary="Project setup">
       <created>1620598855906</created>
@@ -189,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622028010809</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Building the story">
+      <created>1622116949455</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1622116949455</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,7 +218,8 @@
     <MESSAGE value="Building feature section" />
     <MESSAGE value="Building the tours sections" />
     <MESSAGE value="Building the tours sections + fix utilities" />
-    <option name="LAST_COMMIT_MESSAGE" value="Building the tours sections + fix utilities" />
+    <MESSAGE value="Building the story" />
+    <option name="LAST_COMMIT_MESSAGE" value="Building the story" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
