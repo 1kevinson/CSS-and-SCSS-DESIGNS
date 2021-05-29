@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aee34343-f1be-4bea-a754-ba830faef508" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/code/sass/components/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/sass/layout/_navigation.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/code/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/code/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/sass/abstracts/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/code/sass/abstracts/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/sass/abstracts/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/code/sass/abstracts/_mixins.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/code/sass/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -111,7 +111,7 @@
       <workItem from="1621925694438" duration="12868000" />
       <workItem from="1622011918078" duration="14190000" />
       <workItem from="1622109014924" duration="8758000" />
-      <workItem from="1622189920107" duration="8460000" />
+      <workItem from="1622189920107" duration="15233000" />
     </task>
     <task id="LOCAL-00001" summary="Project setup">
       <created>1620598855906</created>
@@ -211,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622198469252</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Building the footer section">
+      <created>1622205341469</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1622205341469</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,7 +243,8 @@
     <MESSAGE value="Building the story" />
     <MESSAGE value="Building the Booking section part 2" />
     <MESSAGE value="Building the Booking section part 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Building the Booking section part 3" />
+    <MESSAGE value="Building the footer section" />
+    <option name="LAST_COMMIT_MESSAGE" value="Building the footer section" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
