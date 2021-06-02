@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aee34343-f1be-4bea-a754-ba830faef508" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/code/sass/components/_popup.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/code/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/code/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/sass/layout/_navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/code/sass/layout/_navigation.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/code/sass/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +110,7 @@
       <workItem from="1622109014924" duration="8758000" />
       <workItem from="1622189920107" duration="18235000" />
       <workItem from="1622534250355" duration="700000" />
-      <workItem from="1622611360226" duration="3744000" />
+      <workItem from="1622611360226" duration="10422000" />
     </task>
     <task id="LOCAL-00001" summary="Project setup">
       <created>1620598855906</created>
@@ -223,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622293999340</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Building the navigation - part 2 &amp; 3">
+      <created>1622620340860</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1622620340860</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,7 +258,8 @@
     <MESSAGE value="Building the Booking section part 3" />
     <MESSAGE value="Building the footer section" />
     <MESSAGE value="Building the navigation - part 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Building the navigation - part 1" />
+    <MESSAGE value="Building the navigation - part 2 &amp; 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Building the navigation - part 2 &amp; 3" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
