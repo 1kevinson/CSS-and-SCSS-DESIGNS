@@ -9,7 +9,7 @@
    opacity: 0;
    visibility: hidden;
    transition: all .3s;
-
+   
    &__content {
       @include center-horizontal-vertical;
       width: 70%;
@@ -19,7 +19,7 @@
       display: table;
       overflow: hidden;
       opacity: 0;
-      transform: translate(-50%,-50%) scale(.25);
+      transform: translate(-50%, -50%) scale(.25);
       transition: all .3s .2s;
    }
    
@@ -33,6 +33,32 @@
       display: table-cell;
       vertical-align: middle;
       padding: 3rem 5rem;
+   }
+   
+   @include respond(tab-land) {
+   
+      &__content {
+         display: inline;
+      }
+      
+      &__left {
+         display: block;
+         width: 100%;
+      }
+      
+      &__right {
+         width: 100%;
+         display: block;
+      }
+   
+      &__img {
+         padding: 1.5rem;
+      
+         &:last-child {
+            display: none;
+         }
+      }
+   
    }
    
    &__img {
@@ -52,7 +78,7 @@
       column-count: 2;
       column-gap: 4rem;
       column-rule: 1px solid $color-grey-light-2;
-   
+      
       -moz-hyphens: auto;
       hyphens: auto;
    }
@@ -65,7 +91,7 @@
    //Open state
    &:target &__content {
       opacity: 1;
-      transform: translate(-50%,-50%) scale(1);
+      transform: translate(-50%, -50%) scale(1);
    }
    
    &__close {
@@ -83,6 +109,16 @@
       
       &:hover {
          color: $color-primary;
+      }
+   
+      @include respond(tab-land) {
+         &:link,
+         &:visited {
+            color: $color-primary;
+            top: 3.5rem;
+            right: 4.5rem;
+            font-size: 8rem;
+         }
       }
    }
    
