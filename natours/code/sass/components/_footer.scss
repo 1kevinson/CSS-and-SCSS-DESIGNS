@@ -2,6 +2,10 @@
    background-color: $color-grey-dark-3;
    padding: 10rem 0;
    
+   @include respond(tab-port) {
+      padding: 8rem 0;
+   }
+   
    &__logo-box {
       text-align: center;
       margin-bottom: 8rem;
@@ -15,9 +19,12 @@
    &__navigation {
       border-top: 1px solid $color-grey-light-2;
       padding-top: 2rem;
-      // Display inline-block doesn't occupy 100% of the parent width,
-      // only the width that the content needs
       display: inline-block;
+      
+      @include respond(tab-port) {
+         width: 100%;
+         text-align: center;
+      }
    }
    
    &__list {
@@ -57,13 +64,18 @@
       padding-top: 2rem;
       width: 80%;
       float: right;
+   
+      @include respond(tab-port) {
+         width: 100%;
+         float: none;
+      }
       
       & > a {
          color: $color-primary;
          text-decoration: none;
          transition: all .3s;
          display: inline-block;
-   
+         
          &:hover,
          &:active {
             color: $color-grey-light-1;

@@ -45,7 +45,9 @@
 
 // ems and rems are not affected by the root font size define in the _base file
 // ems is THE best choice for media queries
-// 1em = 16px so 600px / 16 = 37.5em
+// 1em = 16px
+
+// ORDER : base + typography > general layout + grid > page layout > components
 
 /*
 $breakpoint argument choices:
