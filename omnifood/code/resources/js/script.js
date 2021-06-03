@@ -1,7 +1,7 @@
-$(document).ready(function() {
+$(document).ready(function () {
 
     /* For the sticky navigation */
-    $('.js--section-features').waypoint(function(direction) {
+    $('.js--section-features').waypoint(function (direction) {
         if (direction == 'down') {
             $('nav').addClass('sticky');
         } else {
@@ -12,7 +12,7 @@ $(document).ready(function() {
     });
 
     /* Sroll on buttons */
-    $('.js--scroll-to-plans').click(function() {
+    $('.js--scroll-to-plans').click(function () {
         $('html,body').animate(
             {
                 scrollTop: $('.js--section-plans').offset().top
@@ -20,7 +20,7 @@ $(document).ready(function() {
         );
     });
 
-    $('.js--scroll-to-features').click(function() {
+    $('.js--scroll-to-features').click(function () {
         $('html,body').animate(
             {
                 scrollTop: $('.js--section-features').offset().top
@@ -28,7 +28,7 @@ $(document).ready(function() {
         );
     });
 
-    $('.js--scroll-to-cities').click(function() {
+    $('.js--scroll-to-cities').click(function () {
         $('html,body').animate(
             {
                 scrollTop: $('.js--section-cities').offset().top
@@ -36,7 +36,7 @@ $(document).ready(function() {
         );
     });
 
-    $('.js--scroll-to-steps').click(function() {
+    $('.js--scroll-to-steps').click(function () {
         $('html,body').animate(
             {
                 scrollTop: $('.js--section-steps').offset().top
@@ -44,12 +44,19 @@ $(document).ready(function() {
         );
     });
 
-    $('.js--scroll-to-header').click(function() {
+    $('.js--scroll-to-header').click(function () {
         $('html,body').animate(
             {
                 scrollTop: $('header').offset().top
             }, 1000
         );
     });
+
+    /* Mobile nav */
+    $('.js--nav-icon').click(function () {
+        var nav = $('.js--main-nav');
+
+        nav.slideToggle(200);
+    })
 
 });

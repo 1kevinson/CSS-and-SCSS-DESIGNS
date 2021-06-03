@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="aee34343-f1be-4bea-a754-ba830faef508" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/sass/abstracts/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/code/sass/abstracts/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/sass/base/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/code/sass/base/_base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/sass/components/_card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/code/sass/components/_card.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/sass/components/_form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/code/sass/components/_form.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +21,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1sJlfJodmLbyCH1xxvlippt6T86" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -146,7 +150,7 @@
       <workItem from="1622189920107" duration="18235000" />
       <workItem from="1622534250355" duration="700000" />
       <workItem from="1622611360226" duration="12343000" />
-      <workItem from="1622708549893" duration="26302000" />
+      <workItem from="1622708549893" duration="26915000" />
     </task>
     <task id="LOCAL-00001" summary="Project setup">
       <created>1620598855906</created>
@@ -323,7 +327,21 @@
       <option name="project" value="LOCAL" />
       <updated>1622755313076</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Wrapping up the natours Project">
+      <created>1622756965036</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1622756965036</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Wrapping up the natours Project + last files">
+      <created>1622757225783</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1622757225783</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,8 +352,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="Project setup" />
-    <MESSAGE value="Added git ignore for Natours" />
     <MESSAGE value="setting up the main.scss file" />
     <MESSAGE value="Implementing 7-1 SASS architecture" />
     <MESSAGE value="Build grid system" />
@@ -359,7 +375,9 @@
     <MESSAGE value="Tours, stories and booking" />
     <MESSAGE value="Added density descriptor for images" />
     <MESSAGE value="Build process with npm scripts" />
-    <option name="LAST_COMMIT_MESSAGE" value="Build process with npm scripts" />
+    <MESSAGE value="Wrapping up the natours Project" />
+    <MESSAGE value="Wrapping up the natours Project + last files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Wrapping up the natours Project + last files" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

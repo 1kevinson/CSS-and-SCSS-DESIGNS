@@ -270,6 +270,19 @@ header {
     border-bottom: 2px solid #e67e22;
 }
 
+/* Mobile navi */
+.mobile-nav-icon {
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-nav-icon > div {
+    font-size: 200%;
+    color: #fff;
+}
+
 /* Sticky navi */
 .sticky {
     position: fixed;
@@ -291,18 +304,8 @@ header {
     color: #555;
 }
 
-.sticky .logo-black { 
-    display: block;
-    transition: transform 0.5s ease;
- }
-
-.sticky .logo-black:hover { 
-    cursor: pointer;
-    filter: blur(0.3px);
-    transform: scale(0.95,0.95);
-}
-
 .sticky .logo { display: none; }
+.sticky .logo-black { display: block; }
 
 
 /* ---------------------- */
