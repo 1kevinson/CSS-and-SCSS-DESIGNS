@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="aee34343-f1be-4bea-a754-ba830faef508" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/css/style.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/code/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/code/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/code/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/code/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +68,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="build:css" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/code/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build:css" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="compile:sass" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/code/package.json" />
       <command value="run" />
@@ -75,11 +88,31 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="serve" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+    <configuration name="compress:css" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/code/package.json" />
       <command value="run" />
       <scripts>
-        <script value="serve" />
+        <script value="compress:css" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="concat:sass" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/code/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="concat:sass" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="prefix:css" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/code/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="prefix:css" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -87,8 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.build:css" />
+        <item itemvalue="npm.compress:css" />
+        <item itemvalue="npm.prefix:css" />
+        <item itemvalue="npm.concat:sass" />
         <item itemvalue="npm.compile:sass" />
-        <item itemvalue="npm.serve" />
       </list>
     </recent_temporary>
   </component>
@@ -110,7 +146,7 @@
       <workItem from="1622189920107" duration="18235000" />
       <workItem from="1622534250355" duration="700000" />
       <workItem from="1622611360226" duration="12343000" />
-      <workItem from="1622708549893" duration="22472000" />
+      <workItem from="1622708549893" duration="24495000" />
     </task>
     <task id="LOCAL-00001" summary="Project setup">
       <created>1620598855906</created>
@@ -273,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622750443743</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Added density descriptor for images">
+      <created>1622753342419</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1622753342419</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,7 +350,8 @@
     <MESSAGE value="Media queries, Layout, About and Features Sections" />
     <MESSAGE value="Media queries, Layout, About and Features Sections + disable inspection" />
     <MESSAGE value="Tours, stories and booking" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tours, stories and booking" />
+    <MESSAGE value="Added density descriptor for images" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added density descriptor for images" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
