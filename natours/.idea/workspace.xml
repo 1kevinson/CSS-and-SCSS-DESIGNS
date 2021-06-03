@@ -3,10 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="aee34343-f1be-4bea-a754-ba830faef508" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/code/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/code/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/code/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/sass/abstracts/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/code/sass/abstracts/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/sass/base/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/code/sass/base/_base.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/sass/components/_card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/code/sass/components/_card.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/sass/components/_form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/code/sass/components/_form.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +54,7 @@
       <recent name="$PROJECT_DIR$/code/css" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.compile:sass">
+  <component name="RunManager" selected="npm.build:css">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -73,16 +73,6 @@
       <command value="run" />
       <scripts>
         <script value="build:css" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="compile:sass" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/code/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="compile:sass" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -118,13 +108,23 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/code/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="npm.build:css" />
+        <item itemvalue="npm.start" />
         <item itemvalue="npm.compress:css" />
         <item itemvalue="npm.prefix:css" />
         <item itemvalue="npm.concat:sass" />
-        <item itemvalue="npm.compile:sass" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +146,7 @@
       <workItem from="1622189920107" duration="18235000" />
       <workItem from="1622534250355" duration="700000" />
       <workItem from="1622611360226" duration="12343000" />
-      <workItem from="1622708549893" duration="24495000" />
+      <workItem from="1622708549893" duration="26302000" />
     </task>
     <task id="LOCAL-00001" summary="Project setup">
       <created>1620598855906</created>
@@ -316,7 +316,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622753342419</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Build process with npm scripts">
+      <created>1622755313076</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1622755313076</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -351,7 +358,8 @@
     <MESSAGE value="Media queries, Layout, About and Features Sections + disable inspection" />
     <MESSAGE value="Tours, stories and booking" />
     <MESSAGE value="Added density descriptor for images" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added density descriptor for images" />
+    <MESSAGE value="Build process with npm scripts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Build process with npm scripts" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
