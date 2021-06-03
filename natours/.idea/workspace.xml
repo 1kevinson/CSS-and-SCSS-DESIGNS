@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aee34343-f1be-4bea-a754-ba830faef508" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/code/sass/components/_popup.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/code/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/code/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/code/sass/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/sass/abstracts/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/code/sass/abstracts/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/sass/base/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/code/sass/base/_base.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,13 +54,15 @@
     </key>
   </component>
   <component name="RunManager" selected="npm.compile:sass">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -110,7 +111,8 @@
       <workItem from="1622109014924" duration="8758000" />
       <workItem from="1622189920107" duration="18235000" />
       <workItem from="1622534250355" duration="700000" />
-      <workItem from="1622611360226" duration="10422000" />
+      <workItem from="1622611360226" duration="12343000" />
+      <workItem from="1622708549893" duration="4155000" />
     </task>
     <task id="LOCAL-00001" summary="Project setup">
       <created>1620598855906</created>
@@ -231,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622620340860</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Building the Pure CSS popup">
+      <created>1622627234824</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1622627234826</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,7 +268,8 @@
     <MESSAGE value="Building the footer section" />
     <MESSAGE value="Building the navigation - part 1" />
     <MESSAGE value="Building the navigation - part 2 &amp; 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Building the navigation - part 2 &amp; 3" />
+    <MESSAGE value="Building the Pure CSS popup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Building the Pure CSS popup" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
