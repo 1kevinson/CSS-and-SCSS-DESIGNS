@@ -12,8 +12,6 @@ VOLUME ["/app/node_modules"]
 
 COPY . .
 
-EXPOSE 8080
-
 CMD ["npm","start"]
 
 LABEL version="1.0" 
