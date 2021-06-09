@@ -124,3 +124,45 @@
    
    }
 }
+
+////////////////////////////////
+//// SIDE NAVIGATION
+.side-nav {
+   
+   &__item {
+   
+   }
+   
+   &__link {
+   
+   }
+   
+   &__icon {
+   
+   }
+}
+
+
+////////////////////////////////
+//// LEGAL TEXT
+.legal {
+   font-size: 1.2rem;
+   color: var(--color-grey-light-4);
+   text-align: center;
+   padding: 2.5rem;
+   line-height: 2.25rem;
+   
+   & > a {
+      text-decoration: none;
+      color: inherit;
+      padding-bottom: .15rem;
+      border-bottom: solid 1px var(--color-primary);
+      transition: all .4s;
+      
+      &:hover {
+         color: var(--color-primary);
+         font-size: 1.25rem;
+         border-bottom: transparent;
+      }
+   }
+}
