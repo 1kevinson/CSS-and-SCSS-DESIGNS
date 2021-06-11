@@ -9,11 +9,11 @@
 //// SEARCH BOX
 .search {
    flex: 0 0 40%;
-   
+
    display: flex;
    align-items: center;
    justify-content: center;
-   
+
    &__input {
       font-family: inherit;
       font-size: inherit;
@@ -25,36 +25,36 @@
       width: 90%;
       transition: all .2s;
       margin-right: -3.25rem;
-      
+
       &:focus {
          outline: none;
          width: 100%;
          background-color: var(--color-grey-light-3);
       }
-      
+
       &::-webkit-input-placeholder {
          font-weight: 100;
          color: var(--color-grey-light-4);
       }
    }
-   
+
    &__input:focus + &__button {
       background-color: var(--color-grey-light-3);
    }
-   
+
    &__button {
       border: none;
       background-color: var(--color-grey-light-2);
-      
+
       &:focus {
          outline: none;
       }
-      
+
       &:active {
          transform: translateY(2px);
       }
    }
-   
+
    &__icon {
       height: 2.25rem;
       width: 2.25rem;
@@ -66,11 +66,11 @@
 //// USER NAVIGATION
 .user-nav {
    align-self: stretch;
-   
+
    display: flex;
    align-items: center;
-   
-   
+
+
    //select all direct children
    & > * {
       padding: 0 2rem;
@@ -78,22 +78,22 @@
       height: 100%;
       display: flex;
       align-items: center;
-      
+
       &:hover {
-         background-color:  var(--color-grey-light-2);
+         background-color: var(--color-grey-light-2);
       }
    }
-   
+
    &__icon-box {
       position: relative;
    }
-   
+
    &__icon {
       height: 2.25rem;
       width: 2.25rem;
       fill: var(--color-grey-dark-2);
    }
-   
+
    &__notification {
       font-size: .8rem;
       height: 1.75rem;
@@ -104,42 +104,81 @@
       position: absolute;
       top: 1.5rem;
       right: 1.1rem;
-      
+
       display: flex;
       justify-content: center;
       align-items: center;
    }
-   
+
    &__user {
-   
+
    }
-   
+
    &__user-photo {
       height: 3.75rem;
       border-radius: 50%;
       margin-right: 1rem;
    }
-   
+
    &__user-name {
-   
+
    }
 }
 
 ////////////////////////////////
 //// SIDE NAVIGATION
 .side-nav {
-   
+   font-size: 1.4rem;
+   list-style: none;
+   margin-top: 3.5rem;
+
+
    &__item {
-   
+      position: relative;
+
+      &:not(:last-child) {
+         margin-bottom: .5rem;
+      }
    }
-   
-   &__link {
-   
+
+   &__item::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 3px;
+      background-color: var(--color-primary);
+      transform: scaleY(0);
+      transform-origin: top;
+      transition: transform .2s, width .4s .2s;
    }
-   
+
+   &__item:hover::before,
+   &__item--active::before {
+      transform: scaleY(1);
+      width: 100%;
+   }
+
+   &__link:link,
+   &__link:visited {
+      color: var(--color-grey-light-1);
+      text-decoration: none;
+      text-transform: uppercase;
+      padding: 1.5rem 3rem;
+
+      position: relative;
+      z-index: 2; // z-index always work with position specified
+
+      display: flex;
+      align-items: center;
+   }
+
    &__icon {
       height: 2rem;
       width: 2rem;
+      margin-right: 2rem;
+      fill: currentColor;
    }
 }
 
@@ -152,18 +191,29 @@
    text-align: center;
    padding: 2.5rem;
    line-height: 2.25rem;
-   
+
    & > a {
       text-decoration: none;
       color: inherit;
       padding-bottom: .15rem;
       border-bottom: solid 1px var(--color-primary);
       transition: all .4s;
-      
+
       &:hover {
          color: var(--color-primary);
          font-size: 1.25rem;
          border-bottom: transparent;
       }
+   }
+}
+
+////////////////////////////////
+//// GALLERY
+.gallery {
+   display: flex;
+
+   &__photo {
+      width: 100%;
+      display: block;
    }
 }
