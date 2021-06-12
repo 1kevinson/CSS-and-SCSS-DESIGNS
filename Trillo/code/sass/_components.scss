@@ -293,8 +293,17 @@
    cursor: pointer;
    transition: all .2s;
    
+   & span {
+      margin-left: 3px;
+      transition: margin-left .2s;
+   }
+   
    &:hover {
       color: var(--color-grey-dark-1);
+      
+      span {
+         margin-left: 8px;
+      }
    }
    
    &:focus {
@@ -311,7 +320,7 @@
    
    50% {
       transform: scale(1.05);
-      box-shadow: 0 1rem 4rem rgba(0,0,0,.25);
+      box-shadow: 0 1rem 4rem rgba(0, 0, 0, .25);
    }
    
    100% {
@@ -369,7 +378,7 @@
    align-items: center;
    
    &__client {
-   margin-right: auto;
+      margin-right: auto;
    }
    
    &__friends {
@@ -387,4 +396,67 @@
          margin-right: -1.5rem;
       }
    }
+}
+
+////////////////////////////////
+//// REVIEWS
+.review {
+   background-color: #fff;
+   box-shadow: var(--shadow-light);
+   padding: 3rem;
+   margin-bottom: 3.5rem;
+   position: relative;
+   overflow: hidden;
+   
+   
+   &::before {
+      content: "\201C";
+      position: absolute;
+      top: -8rem;
+      left: -.6rem;
+      font-size: 17rem;
+      color: var(--color-grey-light-2);
+      font-family: sans-serif;
+      z-index: 1;
+   }
+   
+   &__text {
+      z-index: 5;
+      position: relative;
+   }
+   
+   &__photo {
+      height: 4.5rem;
+      width: 4.5rem;
+      border-radius: 50%;
+      margin-right: 1.5rem;
+   }
+   
+   &__user {
+      margin-top: 2rem;
+      
+      display: flex;
+      align-items: center;
+      
+      &-box {
+         margin-right: auto;
+      }
+      
+      &-name {
+         font-size: 1.2rem;
+         text-transform: uppercase;
+      }
+      
+      &-date {
+         font-size: 1.1rem;
+         color: var(--color-grey-dark-3);
+      }
+   }
+   
+   &__rating {
+      font-size: 2rem;
+      font-weight: 100;
+      color: var(--color-primary-dark);
+   }
+   
 }
