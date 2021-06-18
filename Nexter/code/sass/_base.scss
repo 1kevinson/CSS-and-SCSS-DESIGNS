@@ -36,6 +36,7 @@ body {
 
 .container {
    display: grid;
+   // Advanced practice to define rows
    grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
    // Advanced practice to use named columns
    grid-template-columns: [sidebar-start] 8rem [sidebar-end full-start] minmax(6rem, 1fr) [center-start]
