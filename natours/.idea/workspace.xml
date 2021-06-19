@@ -59,19 +59,6 @@
     </key>
   </component>
   <component name="RunManager" selected="npm.build:css">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="build:css" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/code/package.json" />
       <command value="run" />
@@ -151,6 +138,8 @@
       <workItem from="1622534250355" duration="700000" />
       <workItem from="1622611360226" duration="12343000" />
       <workItem from="1622708549893" duration="26915000" />
+      <workItem from="1623591543397" duration="276000" />
+      <workItem from="1623863939370" duration="2000" />
     </task>
     <task id="LOCAL-00001" summary="Project setup">
       <created>1620598855906</created>
