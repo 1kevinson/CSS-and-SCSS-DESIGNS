@@ -21,4 +21,4 @@
   
   
  <br>
- All those website designs are proudly hosted on [Render](https://render.com/)
+ All those website designs are proudly hosted on https://render.com/
