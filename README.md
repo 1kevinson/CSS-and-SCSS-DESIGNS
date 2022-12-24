@@ -1,4 +1,4 @@
-### Here are some website designs that I build when I was Learning HTML, CSS and SASS back in the days 😄
+#### Here are some website designs that I built when I was Learning HTML, CSS and SASS back in the days 😄
 
 - I build this site using only HMTL and CSS (no Javascript)
 
