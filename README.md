@@ -1,24 +1,30 @@
-#### Here are some website designs that I built when I was Learning HTML, CSS and SASS 😄
+### 📺 List of websites that I built to learn HTML, CSS and SASS 
+<br>
+
 
 - I build this site using only HMTL and CSS (no Javascript)
 
-  https://omnifood-by-arsene.onrender.com
+  [Omnifood](https://omnifood-by-arsene.onrender.com)
  
+ <br>
  
 - I build this one, using FLOAT CSS (no Javascript)
   
-  https://natours-by-arsene.onrender.com
+   [Natours](https://natours-by-arsene.onrender.com)
   
   
+  <br>
 - I build this one, using FLEX-BOX CSS (no Javascript)
 
-  https://trillo-by-arsene.onrender.com
+   [Trillo](https://trillo-by-arsene.onrender.com)
   
   
+  <br>
 - I build the last one (and really enjoy it), using GRID CSS (no Javascript)
 
-  https://nexter-by-arsene.onrender.com
+   [Nexter](https://nexter-by-arsene.onrender.com)
   
   
- <br>
- All those website designs are proudly hosted on https://render.com/
+  
+ <br><br>
+ All those website designs are proudly hosted on  [render](https://render.com/)
